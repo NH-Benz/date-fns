@@ -21,5 +21,5 @@ import requiredArgs from '../_lib/requiredArgs/index'
 export default function getYear(dirtyDate: Date | number): number {
   requiredArgs(1, arguments)
 
-  return toDate(dirtyDate).getFullYear()
+  return toDate(dirtyDate).getFullYear() + 543
 }
